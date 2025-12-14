@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Application Form</title>
+  
+  <link rel="stylesheet" type="text/css" href="./form.css" />
+</head>
+<body>
+<header>
+      <div class="navbar">
+            <img src="./clglogo.png" alt="SMVIT Logo" class="logo-img">
+          <h1 class="logo">SIR M VISVESVARAYA INSTITUTE OF TECHNOLOGY</h1>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="./course.html">Courses</a></li>
+                  <li><a href="./achievement.html">Achievements</a></li>
+                  <li><a href="./campuslife.html">Campus</a></li>
+                  <li><a href="./form.html">Connect</a></li>
+                  
+              </ul>
+          </nav>
+      </div>
+</header>
+
+<FORM NAME="APPFORM" action="submit.html" METHOD="GET" >
+<div class="card">
+<TABLE CELLSPACING=5 CELLPADDING=5% ALIGN=CENTER>
+<TR>
+<TD ALIGN=LEFT>STUDENT NAME: </TD>
+<TD><INPUT TYPE="TEXT" NAME="STUNAME" required></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>CONTACT NUMBER: </TD>
+<TD><INPUT TYPE="TEXT" NAME="CONTACT" required></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT> EMAIL ID: </TD>
+<TD><INPUT TYPE="EMAIL" NAME="EMAIL" required></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>GENDER: </TD>
+<TD>
+  <INPUT TYPE="RADIO" NAME="GEN" VALUE="M" required>MALE
+  <INPUT TYPE="RADIO" NAME="GEN" VALUE="F">FEMALE
+</TD>
+</TR>
+<TR>
+<TD ALGIN=LEFT> COURSE:
+<SELECT NAME="DROPDOWN" required>
+<OPTION VALUE="">--Select Course--</OPTION>
+<OPTION VALUE="1">CSE</OPTION>
+<OPTION VALUE="2">CSE-AI ML</OPTION>
+<OPTION VALUE="3">CSE-DS</OPTION>
+<OPTION VALUE="4">CSE-IOT</OPTION>
+<OPTION VALUE="5">ISE</OPTION>
+<OPTION VALUE="6">ECS</OPTION>
+<OPTION VALUE="7">ECE</OPTION>
+<OPTION VALUE="8">ETE</OPTION>
+<OPTION VALUE="9">RAI</OPTION>
+<OPTION VALUE="10">BT</OPTION>
+<OPTION VALUE="11">CV</OPTION>
+<OPTION VALUE="12">ME</OPTION>
+<OPTION VALUE="13">EEE</OPTION>
+</SELECT>
+</TD>
+</TR>
+
+<TR>
+<TD><INPUT TYPE="SUBMIT" VALUE="SUBMIT THE FORM"> </TD>
+<TD><INPUT TYPE="RESET" VALUE="RESET THE FORM"></TD>
+</TR>
+</TABLE>
+</div>
+</FORM>
+<footer>
+      <p>&copy; 2025 SMVIT | All rights reserved.</p>
+         <p>Join us 
+            <a href="#" target="_blank"></a>
+         </p>
+    </footer>
+</body>
+</html>
